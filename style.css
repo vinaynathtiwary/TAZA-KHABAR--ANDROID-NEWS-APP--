@@ -1,0 +1,102 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.mainBg {
+  background-color: white;
+  height: 100vh;
+  margin: 0px 25px 0px 25px;
+}
+
+.fullNavBar {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding-right: 0;
+  display: flex;
+  justify-content: flex-end;
+  border-top-left-radius: 15;
+  border-top-left-radius: 15;
+  padding-top: 2%;
+  position: absolute;
+  z-index: 10px;
+}
+
+.fullNavBa div img {
+  padding-right: 50%;
+  height: 50;
+}
+
+.navbar {
+  background-color: black;
+  color: aliceblue;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.app_logo img {
+  height: 150px;
+  padding-right: 400px;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 50vw;
+  height: 100px;
+  font-size: 25px;
+}
+
+.navList div {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.mainSection {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10%;
+}
+
+.logoSection img {
+  height: 600px;
+  transition: ease-in-out;
+}
+
+.logosectionimg:hover {
+  height: 700px;
+}
+
+.textSection {
+  margin-left: 50px;
+  width: 45vw;
+  height: 60vh;
+}
+
+.textSection h1 {
+  font-size: 70px;
+}
+
+.textSection p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttons div {
+  height: 100px;
+  width: 450px;
+  border-radius: 30px;
+  background-color: rgb(0, 0, 0);
+  font-size: 25px;
+  text-align: center;
+  color: azure;
+}
